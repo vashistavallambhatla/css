@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+.navbar-component {
+    float: left;
+    margin-left: 1px;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.navbar {
+    width: 100%;
+    background-color: darkblue; /* Optional for visibility */
+    overflow :hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

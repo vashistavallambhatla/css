@@ -1,0 +1,28 @@
+body{
+    background : linear-gradient(135deg,red,yellow);
+}
+.card {
+    width: 500px;
+    margin : 50px auto;
+    background-color: rgb(242, 239, 239);
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 8px 10px 20px rgb(118, 109, 109);
+}
+
+#image {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+p {
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
+.card:hover {
+    transform: scale(1.03); 
+}
