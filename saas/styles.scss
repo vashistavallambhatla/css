@@ -1,0 +1,36 @@
+// Variables for colors and fonts
+$primary-bg: linear-gradient(135deg, red, yellow);
+$card-bg: rgb(242, 239, 239);
+$box-shadow: 8px 10px 20px rgb(118, 109, 109);
+$border-radius: 10px;
+$text-font: 'Arial, sans-serif';
+
+body {
+  background: $primary-bg;
+  font-family: $text-font;
+}
+
+.card {
+  width: 500px;
+  margin: 50px auto;
+  background-color: $card-bg;
+  height: 100%;
+  border-radius: $border-radius;
+  text-align: center;
+  padding: 10px;
+  box-shadow: $box-shadow;
+  
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  #image {
+    border-radius: $border-radius;
+    margin-top: 20px;
+  }
+
+  p {
+    border-radius: 3px;
+    padding: 5px;
+  }
+}
